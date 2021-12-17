@@ -1,0 +1,324 @@
+/*-------------------------- stsrt basic classes--------------------*/
+body
+{
+    margin:0px;
+    font-family:system-ui;
+}
+
+/*-------------------------- end basic classes--------------------*/
+/*-------------------------- start navbar --------------------*/
+nav .container
+{
+  display: flex;
+  justify-content: space-between;
+  
+}
+nav .container .logo h1
+{
+ color:  #2a2850;   
+}
+nav .container .links
+{
+ margin-top:31px   
+}
+nav .container .links ul
+{
+  display: flex;  
+}
+nav .container .links ul li
+{
+ list-style: none;
+ padding-left: 50px;
+ font-size:17px;
+ font-weight: 600
+}
+nav .container .links ul li a
+{
+  text-decoration: none;
+  color: #2a2850;
+}
+nav .container .links ul li a:hover
+{
+  color:#d9534f; 
+  transition: 0.4s;
+}
+nav .container .links ul button
+{
+ margin-left: 35px;
+ font-weight: 600;
+ font-size:17px;
+}
+@media(max-width:767px)
+{
+  nav .container
+    {
+        display: block;
+    }  
+    nav .container .links ul 
+    {
+        display: block;
+        padding: 0px;
+    }
+    nav .container .links ul li
+    {
+        padding-bottom:12px
+    }
+}
+/*-------------------------- end navbar--------------------*/
+/*-------------------------- start header--------------------*/
+header
+{
+  background-image:   url(../image/slide-1.jpg);
+  background-size: cover;
+background-position: center;
+color: beige;
+margin-bottom: 60px;
+
+}
+header .container
+{
+padding-top: 12%;
+padding-bottom: 10%;
+}
+header .opecity
+{
+    background-color: #2d252196;
+}
+header h1
+{
+   font-size: 40px   
+}
+header p
+{
+  font-size: 18px  
+}
+header .opecity .container button
+{
+ font-weight: 600;
+ font-size:17px; 
+ margin-top: 40px
+}
+/*-------------------------- end header--------------------*/
+/*-------------------------- start section2--------------------*/
+section .container
+{
+  display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap
+}
+section .container .text
+{
+ width: 41%   
+}
+section .container .text h1
+{
+ font-size: 40px ;
+     margin-bottom: 39px;
+}
+section .container .text p
+{
+  font-size:18px;
+  font-weight: 500;
+}
+section .container .part2
+{
+   width: 49% ;
+   font-size:18px  
+}
+section .container .part2 p span
+{
+    color: #d9534f; 
+}
+@media(max-width:767px)
+{
+  section .container .part2,section .container .text
+    {
+        width: 100%;
+         margin-bottom: 20px;
+    }
+    section .container .text
+    {
+        border-bottom: 1px solid  #d9534f;
+        padding-bottom: 55px;
+    }
+}
+/*-------------------------- end section2--------------------*/
+/*-------------------------- start section3--------------------*/
+.loogo
+{
+ margin-top: 80px  ;
+background-color:#f5f5f561;
+ padding: 18px
+}
+.loogo .container .row .image img
+{
+    width: 90%;
+    padding:12px;
+    filter: grayscale(100);
+}
+.loogo .container .row .image img:hover
+{
+  transform: scale(1.2);
+    transition: 1s all;
+    filter: grayscale(0)
+}
+/*-------------------------- end section3--------------------*/
+/*-------------------------- start section4--------------------*/
+#boxes 
+{
+  margin-top: 59px; 
+  margin-bottom: 60px; 
+}
+#boxes .container .row .boxs
+{
+  display: flex;
+  justify-content:space-between;
+  background-color:#f5f5f561;
+  margin:10px
+}
+#boxes .container .row .boxs .icons
+{
+   align-items: center;
+    display: flex;
+    justify-content: center;   
+}
+#boxes .container .row .boxs .icons span
+{ 
+    color: #d9534f;
+    font-size: 35px;
+    padding-left: 20px;
+}
+#boxes .container .row .boxs .box
+{
+   padding:30px 
+}
+#boxes .container .row .boxs:hover h4
+{
+    color: #d9534f;
+    transition: 0.3
+}
+
+/*-------------------------- end section4--------------------*/
+/* =======  start Portfolio Section ======= */
+.Portfolio
+{
+ margin-bottom: 50px   
+}
+
+.Portfolio  ul
+{
+   overflow: hidden ;
+     margin-bottom: 39px;
+
+}
+.Portfolio  ul li
+{
+    list-style: none;
+    float: left;
+    margin-left: 28px;
+    font-size: 19px
+}
+.Portfolio  ul li:first-of-type
+{
+    background-color: #d9534f;
+    padding: 2px 21px;
+    margin-left: 39%;
+    border-radius: 6px;
+    color: beige;
+}
+.Portfolio .container .image img
+{
+  width:100% ;
+ margin-bottom: 20px;
+}
+/* =======  start Portfolio Section ======= */
+/*-- =======  ---------------start footer--------- ======= --*/
+footer
+{
+  background:#515d6a;
+  padding: 46px;
+  
+}
+
+footer .container .footer1 p
+{
+  color:#f4fafa;  
+}
+footer .container h3
+{
+  color: beige;  
+}
+footer .container .footer1 p
+{
+    margin-bottom:18px
+}
+footer .container .footer1 p span
+{
+ background-color: #636e79;
+ padding:8px 12px;
+ border-radius: 6px;
+ margin-right:3px;
+ font-size: 16px;
+}
+footer .container .footer1 p span:hover
+{
+  background-color: #d9534f;   
+}
+footer .container p span
+{
+ color:#f4fafa;  
+}
+footer .container .footer2 p a ,footer .container .footer3 p a
+{
+  color: #d1e1ec;
+  text-decoration: none;  
+}
+footer .container .footer2 p a:hover ,footer .container .footer3 p a:hover
+{
+  color:#f4fafa;    
+}
+
+footer .container .footer4 p
+{
+  color:beige;   
+}
+footer .container .footer4 form input:first-of-type
+{
+  width: 100%;
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 23px; 
+    border: none;
+}
+footer .container .footer4 form input:last-of-type
+{
+      position: absolute;
+    bottom: 13px;
+    right: 15px;
+    padding: 7px 13px;
+    color: #f4fafa;
+    background-color: #d9534f;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.copy
+{
+ background-color: #4a5562; 
+  padding: 20px; 
+}
+.copy p
+{
+  color: beige;
+}
+.copy p a
+{
+  color: #d1e1ec;
+ text-decoration: none;
+}
+.copy p a:hover
+{
+ color: #f4fafa;   
+}
+
+/*-- =======  ---------------end footer--------- ======= --*/
